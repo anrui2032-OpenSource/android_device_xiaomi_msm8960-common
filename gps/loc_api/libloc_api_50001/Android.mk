@@ -1,5 +1,5 @@
 ifneq ($(BUILD_TINY_ANDROID),true)
-#Compile this library only for builds with the latest modem image
+# Compile this library only for builds with the latest modem image
 
 LOCAL_PATH := $(call my-dir)
 
@@ -42,12 +42,12 @@ LOCAL_CFLAGS += \
      -Wno-unused-parameter \
      -Wno-error \
 
-LOCAL_C_INCLUDES:= \
+LOCAL_C_INCLUDES := \
     $(TARGET_OUT_HEADERS)/gps.utils \
     $(TARGET_OUT_HEADERS)/libloc_core
 
-LOCAL_COPY_HEADERS_TO:= libloc_eng/
-LOCAL_COPY_HEADERS:= \
+LOCAL_COPY_HEADERS_TO := libloc_eng/
+LOCAL_COPY_HEADERS := \
    LocEngAdapter.h \
    loc.h \
    loc_eng.h \
@@ -93,7 +93,7 @@ LOCAL_CFLAGS += -DTARGET_USES_QCOM_BSP
 endif
 
 ## Includes
-LOCAL_C_INCLUDES:= \
+LOCAL_C_INCLUDES := \
     $(TARGET_OUT_HEADERS)/gps.utils \
     $(TARGET_OUT_HEADERS)/libloc_core
 

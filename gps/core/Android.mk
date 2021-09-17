@@ -30,11 +30,11 @@ LOCAL_CFLAGS += \
      -Wno-unused-parameter \
      -Wno-error \
 
-LOCAL_C_INCLUDES:= \
+LOCAL_C_INCLUDES := \
     $(TARGET_OUT_HEADERS)/gps.utils
 
-LOCAL_COPY_HEADERS_TO:= libloc_core/
-LOCAL_COPY_HEADERS:= \
+LOCAL_COPY_HEADERS_TO := libloc_core/
+LOCAL_COPY_HEADERS := \
     MsgTask.h \
     LocApiBase.h \
     LocAdapterBase.h \

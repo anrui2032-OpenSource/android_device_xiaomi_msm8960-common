@@ -1,4 +1,4 @@
-#Compile this library only for builds with the latest modem image
+# Compile this library only for builds with the latest modem image
 
 LOCAL_PATH := $(call my-dir)
 
@@ -17,7 +17,7 @@ LOCAL_SRC_FILES += \
     linked_list.c \
     loc_target.cpp \
     loc_timer.c \
-    ../platform_lib_abstractions/elapsed_millis_since_boot.cpp
+    platform_lib_abstractions/elapsed_millis_since_boot.cpp
 
 
 LOCAL_CFLAGS += \
@@ -28,11 +28,11 @@ LOCAL_CFLAGS += \
 LOCAL_LDFLAGS += -Wl,--export-dynamic
 
 ## Includes
-LOCAL_C_INCLUDES:= \
-    $(LOCAL_PATH)/../platform_lib_abstractions
+LOCAL_C_INCLUDES := \
+    $(LOCAL_PATH)/platform_lib_abstractions
 
-LOCAL_COPY_HEADERS_TO:= gps.utils/
-LOCAL_COPY_HEADERS:= \
+LOCAL_COPY_HEADERS_TO := gps.utils/
+LOCAL_COPY_HEADERS := \
    loc_log.h \
    loc_cfg.h \
    log_util.h \
@@ -40,9 +40,9 @@ LOCAL_COPY_HEADERS:= \
    msg_q.h \
    loc_target.h \
    loc_timer.h \
-   ../platform_lib_abstractions/platform_lib_includes.h \
-   ../platform_lib_abstractions/platform_lib_time.h \
-   ../platform_lib_abstractions/platform_lib_macros.h
+   platform_lib_abstractions/platform_lib_includes.h \
+   platform_lib_abstractions/platform_lib_time.h \
+   platform_lib_abstractions/platform_lib_macros.h
 
 
 LOCAL_MODULE := libgps.utils

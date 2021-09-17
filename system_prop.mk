@@ -32,6 +32,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     rild.libpath=/vendor/lib/libril-qc-qmi-1.so \
     rild.libargs=-d[SPACE]/dev/smd0
 
+# DRM
 PRODUCT_PROPERTY_OVERRIDES += \
     drm.service.enabled=true
 
@@ -106,6 +107,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     media.stagefright.use-awesome=true
 
+# Camera
 PRODUCT_PROPERTY_OVERRIDES += \
     camera2.portability.force_api=1
 
