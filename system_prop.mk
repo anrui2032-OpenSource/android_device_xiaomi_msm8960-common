@@ -84,8 +84,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.hwui.use_buffer_age=false \
     debug.sf.enable_gl_backpressure=1 \
     persist.hwc.mdpcomp.enable=true \
-    debug.mdpcomp.logs=0 \
-    ro.sf.lcd_density=320
+    debug.mdpcomp.logs=0
 
 # Power Profile
 PRODUCT_PROPERTY_OVERRIDES += \
