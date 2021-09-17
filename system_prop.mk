@@ -110,7 +110,3 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Camera
 PRODUCT_PROPERTY_OVERRIDES += \
     camera2.portability.force_api=1
-
-# Maintainer
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.mk.maintainer=guaiyihu
