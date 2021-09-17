@@ -199,7 +199,7 @@ include device/qcom/sepolicy-legacy/sepolicy.mk
 BOARD_SEPOLICY_DIRS += $(PLATFORM_PATH)/sepolicy
 
 # Security patch level
-VENDOR_SECURITY_PATCH := 2016-01-01
+VENDOR_SECURITY_PATCH := 2017-01-01
 
 # Use mke2fs to create ext4 images
 TARGET_USES_MKE2FS := true
