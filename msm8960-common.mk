@@ -233,6 +233,7 @@ PRODUCT_PACKAGES += \
 
 # Ramdisk
 PRODUCT_PACKAGES += \
+    chargeonlymode \
     fstab.qcom \
     init.qcom.rc  \
     init.class_main.sh \
