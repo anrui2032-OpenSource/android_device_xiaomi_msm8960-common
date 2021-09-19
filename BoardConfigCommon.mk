@@ -150,6 +150,8 @@ BOARD_KERNEL_CMDLINE := console=null androidboot.hardware=qcom ehci-hcd.park=3 m
 BOARD_RAMDISK_USE_XZ := true
 TARGET_KERNEL_ARCH := arm
 TARGET_KERNEL_SOURCE := kernel/xiaomi/msm8960
+TARGET_KERNEL_ADDITIONAL_FLAGS := \
+    HOSTCFLAGS="-fuse-ld=lld -Wno-unused-command-line-argument"
 
 # Malloc
 MALLOC_SVELTE := true
