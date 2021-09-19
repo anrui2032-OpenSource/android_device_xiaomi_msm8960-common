@@ -101,6 +101,7 @@ ifeq ($(USE_DEVICE_SPECIFIC_CAMERA),true)
       ifeq ($(V4L2_BASED_LIBCAM),true)
         LOCAL_C_INCLUDES += $(call project-path-for,qcom-media)/mm-core/inc
         LOCAL_C_INCLUDES += $(LOCAL_PATH)/mm-camera-interface
+        LOCAL_HEADER_LIBRARIES += camera_common_headers
       endif
 
       LOCAL_C_INCLUDES += $(call project-path-for,qcom-display)/libgralloc
