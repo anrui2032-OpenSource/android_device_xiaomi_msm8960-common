@@ -16,13 +16,15 @@
 <resources>
     <string-array name="performance_mode_name">
         <item>@string/power_save_item</item>
+        <item>@string/default_item</item>
         <item>@string/balanced_item</item>
         <item>@string/performance_item</item>
     </string-array>
   
     <string-array name="performance_mode_value" translatable="false">
-        <item>low</item>   
-        <item>middle</item>  
-        <item>high</item>  
+        <item>low</item>
+        <item>default</item>
+        <item>middle</item>
+        <item>high</item>
     </string-array>
 </resources>

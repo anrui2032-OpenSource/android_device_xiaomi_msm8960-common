@@ -19,6 +19,7 @@
     <string name="performance_title">Performance</string>
     <string name="performance_switch_title">Performance Switch</string>
     <string name="power_save_item">PowerSave Mode</string>
+    <string name="default_item">Default Mode</string>
     <string name="balanced_item">Balanced Mode</string>
     <string name="performance_item">Performance Mode</string>
 </resources>

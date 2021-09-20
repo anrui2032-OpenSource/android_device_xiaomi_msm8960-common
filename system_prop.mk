@@ -88,7 +88,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Power Profile
 PRODUCT_PROPERTY_OVERRIDES += \
-    persist.sys.aries.power_profile=middle
+    persist.sys.aries.power_profile=default
 
 # Memory optimizations
 PRODUCT_PROPERTY_OVERRIDES += \

@@ -19,6 +19,7 @@
     <string name="performance_title">性能</string>
     <string name="performance_switch_title">性能切换</string>
     <string name="power_save_item">省电模式</string>
+    <string name="default_item">默认模式</string>
     <string name="balanced_item">均衡模式</string>
     <string name="performance_item">性能模式</string>
 </resources>
