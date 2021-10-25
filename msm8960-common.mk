@@ -23,7 +23,7 @@
 LOCAL_PATH := device/xiaomi/msm8960-common
 
 # Shipping API level
-$(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_k.mk)
+$(call inherit-product, vendor/lineage/build/target/product/product_launched_with_j_mr2.mk)
 
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += \
